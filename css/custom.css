@@ -1,0 +1,500 @@
+body {
+	/*background-image:url('../img/bg1.jpg')no-repeat fixed center;
+	background-size: cover;*/
+	font-family: 'Segoe UI';
+}
+.page-bg {
+  background: url('../img/bg1.jpg');
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.header {
+	background: #1A237E;	
+	color: #fff;
+}
+
+.header h1 {
+	line-height: 70px;
+}
+
+.header-2 {	
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.8);
+}
+
+.header-3 {
+	border-top: 1px solid #000;
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.8);
+}
+
+.header-3 nav {
+	width: 100%;
+}
+
+.header-3 nav ul {
+	list-style: none;
+	overflow: hidden;
+	margin: 0;	
+	padding: 0;
+}
+
+.header-3 nav ul a {
+	display: inline-block;
+	width: 14.28571428571429%;
+	float: left;
+	text-align: center;
+	padding: 20px 0px;
+	left: 0;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	transition: background 0.3s;
+	/*background: #283593;*/
+  background: #1A237E;  
+}
+
+.header-3 nav ul a:hover {	
+	background: #1565C0;
+}
+
+.header-4 {
+	border-top: 1px solid #000;
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.8);
+  background: #1A237E;  
+}
+
+.header-4 nav {
+  width: 100%;
+  padding: 0;
+}
+
+.header-4 nav ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;  
+  padding: 0;
+}
+
+.header-4 nav ul a {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding: 20px 0px;
+	left: 0;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+  font-size: 14px;
+	transition: background 0.3s;
+	/*background: #283593;*/
+  background: #1A237E;  
+}
+
+.header-4 nav ul a:hover {	
+	background: #1565C0;
+}
+
+/* -  -- - -- - - - */
+.id-border {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.bot-border {
+  border-bottom: 1px solid #000;
+}
+
+.manage-border {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+/* - -- - - - - -- - */
+
+.form {
+  margin:auto;
+  margin-top: 20px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+}
+
+.btn-login {
+	background: #1A237E;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.btn-login:hover, .btn-login:active, .btn-login:focus {
+	color: #fff;
+	background: #283593;
+}
+
+.title {
+	font-weight: 700;
+}
+
+#result {
+	text-align: center;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	transition: background 0.4s;
+}
+
+#result2 {
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.4s;
+}
+
+.short{
+	background: #f00;
+}
+
+.weak{
+	background: #E66C2C;
+}
+
+.good{
+	background: #2D98F3;
+}
+
+.strong{
+	background: #006400;
+}
+
+.welcome-message {
+	font-size: 21px;
+	padding: 10px 5px;
+}
+
+table {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px
+}
+
+table td {
+	border: 0px solid #000;
+	text-align: center;
+	padding: 10px 2px;
+}
+
+.books-table:hover{
+  background: #aaa;
+}
+
+.heading-table {
+	font-weight: 600;
+	background: #1A237E;
+	color: #fff;
+}
+
+.link {
+    border: 0;
+    padding: 0;
+    display: inline;
+    background: none;
+    color: #338ECF;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link-form {
+	display: inline;
+}
+
+#loader {
+	background: #1F6DC7;
+	height: 100vh;
+}
+
+#loader img {
+	margin-top: 150px;
+}
+
+#load { 
+	display: none;
+	margin: auto;
+}
+
+.animate-bottom {
+  position: relative;
+  animation-name: animatebottom;
+  animation-duration: 0.75s
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+textarea {
+	resize: none;
+}
+
+.datetime {
+	line-height: 50px;
+}
+
+.absolute-center{ 
+  position: relative;
+    left:0; right:0;
+    top:80px; bottom:0;
+    vertical-align: middle;
+
+}
+
+.table-side {
+  border-right: 1px solid #1A237E;
+}
+
+.heading-table {
+  border-top: 2px solid #1A237E;
+}
+
+.table-borrow {
+  background: #D9EDF7;
+}
+
+.table-borrowed {
+  background: #232526;
+  color: #fff;
+}
+
+.table-penalty{
+  background: #DE5C5C;
+  color: #fff;
+}
+
+.table-no-found {
+  border: 1px solid #000;
+}
+/* --- PAGINATION CSS --- 
+.container-pagination {
+  background: lighten($main-color, 5%);
+  padding: 1rem;
+  margin: 3rem auto;
+  border-radius: 0.2rem;
+  counter-reset: pagination;
+  text-align: center;
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  ul {
+    width: 100%;
+  }
+}
+
+.xlarge {
+  width: 65rem;
+}
+
+.large {
+  width: 45rem;
+}
+
+.middle {
+  width: 32rem;
+}
+
+.small {
+  width: 22rem;
+}
+
+.xsmall {
+  width: 14rem;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+  padding-left: 0px;
+}
+
+li {
+  counter-increment: pagination;
+  &:hover {
+    a {
+      color: lighten($main-color, 5%);
+      background-color: $secondary-color;
+      border: solid 1px $secondary-color;
+    }
+  }
+  &.active {
+    a {
+      color: lighten($main-color, 5%);
+      background-color: $secondary-color;
+      border: solid 1px $secondary-color;
+    }
+  }
+  &:first-child {
+    float: left;
+    a {
+      &:after {
+        content: "Previous";
+      }
+    }
+  }
+  &:nth-child(2) {
+    counter-reset: pagination;
+  }
+  &:last-child {
+    float: right;
+    a {
+      &:after {
+        content: "Next";
+      }
+    }
+  }
+  a {
+    border: solid 1px darken($main-color, 10%);
+    border-radius: 0.2rem;
+    color: darken($main-color, 45%);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+  }
+  a:after {
+    content: " " counter(pagination) " ";
+  }
+}
+
+.large {
+  li {
+    a {
+      display: none;
+    }
+    &:first-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "Previous";
+      }
+    }
+    @include display-child(8);
+    &:last-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "Next";
+      }
+    }
+    &:nth-last-child(2) {
+      a {
+        display: inline-block;
+      }
+    }
+    &:nth-last-child(3) {
+      display: inline-block;
+      &:after {
+        padding: 0 1rem;
+        content: "...";
+      }
+    }
+  }
+}
+
+.middle {
+  li {
+    a {
+      display: none;
+    }
+    &:first-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: "<";
+      }
+    }
+    &:last-child {
+      a {
+        display: inline-block;
+      }
+      a:after {
+        content: ">";
+      }
+    }
+    @include display-child(5);
+    &:nth-last-child(2) {
+      a {
+        display: inline-block;
+      }
+    }
+    &:nth-last-child(3) {
+      display: inline-block;
+      &:after {
+        padding: 0 1rem;
+        content: "...";
+      }
+    }
+  }
+}
+
+.small {
+  li {
+    display: none;
+    &:first-child {
+      width: 50%;
+      display: inline;
+      a:after {
+        content: "Previous Page";
+      }
+    }
+    &:last-child {
+      display: inline;
+      a:after {
+        content: "Next Page";
+      }
+    }
+  }
+}
+
+.xsmall {
+  li {
+    display: none;
+    &.active {
+      display: inline;
+    }
+    &:first-child {
+      display: inline;
+      a:after {
+        content: "Prev";
+       }
+    }
+    &:last-child {
+      display: inline;
+      a:after {
+        content: "Next";
+      }
+    }
+  }
+}
+
+/* PAGINATION CSS */
